@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&family=Noto+Serif+Thai:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="css/dossier.css" />
 <link rel="stylesheet" href="css/mockups.css" />
 </head>
@@ -33,6 +34,7 @@
   </nav>
   <div class="tb-right">
     <span class="tb-clock" data-clock>0000-00-00 00:00:00</span>
+    <button class="lang-tog" aria-label="Switch language" title="EN / ไทย"><span class="lt-en">EN</span><span class="lt-th">ไทย</span></button>
     <button class="tb-burger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -80,7 +82,7 @@
         <div class="dp-h"><span>Short Profile</span><span>TOP PRIORITY</span></div>
         <div class="dp-b">
           <div class="row"><span class="k">SUBJECT:</span> Rujirach "Ben" Kanjarin</div>
-          <div class="row"><span class="k">STATUS:</span> Available for hire</div>
+          <div class="row"><span class="k">STATUS:</span> Available for consulting</div>
           <div class="row"><span class="k">OBJECT:</span> Product Strategist / BSA</div>
           <div class="row"><span class="k">LEGEND:</span> Turns ideas into shipped products.</div>
           <div class="row"><span class="k">ACCESS:</span> Freelance &amp; consulting — open</div>
@@ -103,7 +105,7 @@
       </p>
       <div class="acts rv d2">
         <a class="btn btn-primary" href="#ops">View experiences <span class="arw">↗</span></a>
-        <a class="btn btn-ghost" href="#contact">Hire me</a>
+        <a class="btn btn-ghost" href="#contact">Contact me</a>
       </div>
     </div>
   </div>
@@ -594,10 +596,10 @@
 <!-- ============================ CONTACT ============================ -->
 <section class="sec contact" id="contact">
   <div class="wrap">
-    <span class="lbl-line rv" style="justify-content:center">05 — Establish contact</span>
-    <h2 class="rv d1" style="margin-top:20px">Ben is <em>available<br />for hire.</em></h2>
+    <span class="lbl-line rv" style="justify-content:center">05 — Contact me</span>
+    <h2 class="rv d1" style="margin-top:20px">Ben is <em>available<br />for consulting.</em></h2>
     <p class="sub rv d2">Freelance &amp; project-based consulting — product strategy, ownership, system analysis and business development. From the first idea to the live release, I can carry it.</p>
-    <a class="btn btn-primary cta rv d2" href="mailto:Benrujirach@gmail.com">Hire me <span class="arw">↗</span></a>
+    <a class="btn btn-primary cta rv d2" href="mailto:Benrujirach@gmail.com">Contact me <span class="arw">↗</span></a>
 
     <div class="contact-links rv d3">
       <a href="mailto:Benrujirach@gmail.com"><span class="cl">Email</span><span class="cv">Benrujirach@gmail.com</span></a>
@@ -619,11 +621,12 @@
 <!-- sticky hire pill -->
 <div class="hire-pill">
   <img class="hp-av" src="assets/ben-mug-color.jpg" alt="Ben" />
-  <span class="hp-t"><b>Ben</b> is available for hire</span>
-  <a class="hp-btn" href="#contact">Hire Ben</a>
+  <span class="hp-t"><b>Ben</b> is available for consulting</span>
+  <a class="hp-btn" href="#contact">Contact Ben</a>
   <button class="hp-x" aria-label="Dismiss">✕</button>
 </div>
 
 <script src="js/dossier.js"></script>
+<script src="js/i18n.js"></script>
 </body>
 </html>

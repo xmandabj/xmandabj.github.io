@@ -115,6 +115,37 @@ section { position: relative; z-index: 2; }
 .tb-burger span { width: 16px; height: 1.6px; background: var(--ink); display: block; }
 @media (max-width: 900px){ .tb-nav, .tb-right .tb-toggle { display: none; } .tb-burger { display: flex; } }
 
+/* ===== language toggle ===== */
+.lang-tog { display: inline-flex; align-items: stretch; border: 1px solid var(--line-2); border-radius: 999px; overflow: hidden; background: var(--panel); cursor: pointer; font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; padding: 0; }
+.lang-tog span { display: flex; align-items: center; padding: 5px 9px; color: var(--muted); line-height: 1; transition: background .2s, color .2s; }
+html[data-lang="en"] .lang-tog .lt-en,
+html[data-lang="th"] .lang-tog .lt-th { background: var(--blue); color: #fff; }
+
+/* ===== Thai typography ===== */
+html[data-lang="th"] {
+  --serif: "Noto Serif Thai", Georgia, serif;
+  --read:  "IBM Plex Sans Thai", "Noto Sans Thai", sans-serif;
+  --mono:  "IBM Plex Sans Thai", "Noto Sans Thai", ui-monospace, monospace;
+}
+html[data-lang="th"] body { line-height: 1.7; }
+html[data-lang="th"] .idx, html[data-lang="th"] .sh-r, html[data-lang="th"] .btn,
+html[data-lang="th"] .headline .meta, html[data-lang="th"] .dp-h, html[data-lang="th"] .dp-b,
+html[data-lang="th"] .box-cap, html[data-lang="th"] .ic-h, html[data-lang="th"] .cc-h,
+html[data-lang="th"] .cc-act, html[data-lang="th"] .doss-head .dh-t .a,
+html[data-lang="th"] .doss-head .dh-t .b, html[data-lang="th"] .doss-head .dh-no,
+html[data-lang="th"] .doss-copy, html[data-lang="th"] .doss-spec, html[data-lang="th"] .doss-notes li,
+html[data-lang="th"] .idc-meta, html[data-lang="th"] .op-code, html[data-lang="th"] .op-role,
+html[data-lang="th"] .subhead, html[data-lang="th"] .gc-role, html[data-lang="th"] .gc-d,
+html[data-lang="th"] .edu-honors .hl, html[data-lang="th"] .status, html[data-lang="th"] .lbl-line,
+html[data-lang="th"] .contact-links .cl, html[data-lang="th"] .cv-cap, html[data-lang="th"] .ticker-track,
+html[data-lang="th"] .ticker-flag, html[data-lang="th"] .hp-t, html[data-lang="th"] .hp-btn,
+html[data-lang="th"] .foot, html[data-lang="th"] .op-deliver h4 {
+  text-transform: none; letter-spacing: 0;
+}
+html[data-lang="th"] .doss-blk p { line-height: 1.85; }
+html[data-lang="th"] .headline h1 { line-height: 1.12; }
+html[data-lang="th"] .sec-head .sh-l h2 { line-height: 1.18; }
+
 /* =========================================================================
    HERO — surveillance feed
    ========================================================================= */
