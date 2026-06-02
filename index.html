@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ben · Classified Dossier — Product Strategy & System Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/dossier.css" />
+<link rel="stylesheet" href="css/mockups.css" />
+</head>
+<body>
+
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<rect width="100" height="100" fill="#1f5dff"/>
+<text x="50" y="62" font-family="Georgia, serif" font-size="42" fill="#ffffff" text-anchor="middle" font-style="italic">B</text>
+</svg>
+</template>
+
+<div class="progress"></div>
+
+<!-- ============================ TOP BAR ============================ -->
+<header class="topbar">
+  <a class="tb-mark" href="#top"><span class="rec"></span><span>BEN.R&nbsp;<b>// PORTFOLIO</b></span></a>
+  <nav class="tb-nav">
+    <a href="#dossier">About me</a>
+    <a href="#ops">Experiences</a>
+    <a href="#skills">Skills</a>
+    <a href="#edu">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="tb-right">
+    <span class="tb-clock" data-clock>0000-00-00 00:00:00</span>
+    <button class="tb-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mscrim"></div>
+<aside class="mmenu">
+  <a href="#dossier">About me</a>
+  <a href="#ops">Experiences</a>
+  <a href="#skills">Skills</a>
+  <a href="#edu">Education</a>
+  <a href="#contact">Contact</a>
+</aside>
+
+<!-- ============================ HERO / FEED ============================ -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="feed">
+      <img class="feed-img" src="assets/ben-hero.jpg" alt="Subject — surveillance feed" />
+      <div class="feed-scan"></div>
+
+      <div class="feed-hud">
+        <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner rb"></span>
+
+        <div class="hud-top">
+          <div class="hud-cam"><span class="dot">●</span> LIVE FEED — CAM&nbsp;07 / SECTOR&nbsp;BKK</div>
+          <div class="hud-rec">
+            <span class="hud-time" data-clock>0000-00-00 00:00:00</span>
+            <span class="hud-recdot"><i></i> REC</span>
+          </div>
+        </div>
+
+        <div class="reticle r1"><span class="rl">Subject Identified</span><span class="x c"></span></div>
+        <div class="reticle r2"><span class="rl">Asset · Folio</span></div>
+      </div>
+
+      <!-- subject identified card -->
+      <div class="subject">
+        <div class="sj-h"><span>Subject ID</span><span>R-2727</span></div>
+        <img class="sj-img" src="assets/ben-mug-color.jpg" alt="Subject identified" />
+        <div class="sj-id">ID : R-2727-07 · CONFIRMED</div>
+      </div>
+
+      <!-- dossier overlay -->
+      <div class="dpanel">
+        <div class="dp-h"><span>Short Profile</span><span>TOP PRIORITY</span></div>
+        <div class="dp-b">
+          <div class="row"><span class="k">SUBJECT:</span> Rujirach "Ben" Kanjarin</div>
+          <div class="row"><span class="k">STATUS:</span> Available for hire</div>
+          <div class="row"><span class="k">OBJECT:</span> Product Strategist / BSA</div>
+          <div class="row"><span class="k">LEGEND:</span> Turns ideas into shipped products.</div>
+          <div class="row"><span class="k">ACCESS:</span> Freelance &amp; consulting — open</div>
+          <a class="dp-more" href="#dossier"><span>DETAILED INFORMATION</span><span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- headline band -->
+  <div class="wrap headline">
+    <div class="meta rv">
+      <span>6+ years experience</span><span>Retail · Fintech</span><span>Life Insurance</span><span>Health-tech</span><span>CRM · Enterprise</span><span>Government</span>
+    </div>
+    <h1 class="rv d1">Rujirach Kanjarin <em>(Ben)</em></h1>
+    <div class="sub">
+      <p class="lede rv d2">
+        I turn ideas into <strong>working products</strong>. Product strategy, ownership and
+        system analysis &mdash; from the first idea all the way to launch.
+      </p>
+      <div class="acts rv d2">
+        <a class="btn btn-primary" href="#ops">View experiences <span class="arw">↗</span></a>
+        <a class="btn btn-ghost" href="#contact">Hire me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="ticker-flag"><span class="tk-dot"></span>Live Wire</div>
+  <div class="ticker-view">
+    <div class="ticker-track">
+      <span>6+ years turning tangled ideas into shipped products</span><span>1st Runner-Up · Lovable Hackathon Thailand</span><span>Working product built in under 2 hours — live on stage</span><span>Built CP Axtra · Makro retail platforms from zero</span><span>Fund-management logic trusted by MUFG &amp; State Street</span><span>10+ client projects · 100% on-time · zero post-go-live defects</span><span>Summa Cum Laude · GPA 3.89 / 4.00</span><span>Selected for NIA ACC Program 3 · AI Tech Talent</span><span>Now reading an AI MBA at UTCC</span><span>From first idea to live release — she carries it</span><span>Status: available for hire</span>
+      <span>6+ years turning tangled ideas into shipped products</span><span>1st Runner-Up · Lovable Hackathon Thailand</span><span>Working product built in under 2 hours — live on stage</span><span>Built CP Axtra · Makro retail platforms from zero</span><span>Fund-management logic trusted by MUFG &amp; State Street</span><span>10+ client projects · 100% on-time · zero post-go-live defects</span><span>Summa Cum Laude · GPA 3.89 / 4.00</span><span>Selected for NIA ACC Program 3 · AI Tech Talent</span><span>Now reading an AI MBA at UTCC</span><span>From first idea to live release — she carries it</span><span>Status: available for hire</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ DOSSIER ============================ -->
+<section class="dossier sec" id="dossier">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sh-l">
+        <span class="idx">01 — About me</span>
+        <h2>About <em>Ben</em></h2>
+      </div>
+      <div class="sh-r">Open to work · Available now<br />For hiring managers &amp; clients</div>
+    </div>
+
+    <div class="doss-grid">
+      <!-- LEFT: ID cards -->
+      <div class="id-cards">
+        <div class="intro-clip rv">
+          <div class="ic-h"><span class="rec"><i></i> REC</span><span>Intro video</span></div>
+          <div class="ic-frame">
+            <video src="assets/ben-intro.mp4" autoplay muted loop playsinline></video>
+            <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner rb"></span>
+          </div>
+          <div class="box-cap">A quick hello from Ben</div>
+        </div>
+        <div class="idc rv">
+          <div class="idc-top">
+            <div class="idc-photo">
+              <span class="idc-bar"></span>
+              <img src="assets/ben-mug-color.jpg" alt="ID photo" />
+            </div>
+            <div class="idc-meta">
+              <div class="il">Subject</div><div class="iv">Rujirach Kanjarin</div>
+              <div class="il">Call sign</div><div class="iv b">"Ben"</div>
+              <div class="il">ID</div><div class="iv">R-2727-07</div>
+              <div class="il">Clearance</div><div class="iv b">OPEN / HIRE</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bio-row rv d1">
+          <div class="qr-box">
+            <img class="qr-img" src="assets/line-qr.jpg" alt="LINE QR code — add Ben on LINE" />
+            <div class="box-cap">Add me on LINE</div>
+          </div>
+          <div class="fp-box">
+            <a class="callcard" href="tel:0958471554">
+              <div class="cc-h"><span>Direct Line</span><span>● OPEN</span></div>
+              <div class="cc-num">095 847 1554</div>
+              <div class="cc-act">Tap to call ↗</div>
+            </a>
+            <div class="box-cap">Direct line</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: dossier text -->
+      <div class="doss-body">
+        <div class="doss-seal-bg"></div>
+
+        <div class="doss-head rv">
+          <span class="seal"></span>
+          <div class="dh-t">
+            <div class="a">Product Strategy &amp; System Analysis</div>
+            <div class="b">Professional profile — what I bring to your team</div>
+          </div>
+          <div class="dh-no">Profile № R-2727<br />Status · Available</div>
+        </div>
+
+        <div class="doss-copy rv">For hiring managers &amp; clients — here's exactly how I can help.</div>
+
+        <div class="doss-spec rv">
+          <div class="row"><span class="k">Role</span><span class="v"><b>Product Owner · Business System Analyst · IT Project Manager</b></span></div>
+          <div class="row"><span class="k">Known as</span><span class="v">"Ben" — I take products from first idea to launch</span></div>
+          <div class="row"><span class="k">Best at</span><span class="v">Product strategy · system analysis · AI products</span></div>
+          <div class="row"><span class="k">Based in</span><span class="v">Bangkok, Thailand</span></div>
+          <div class="row"><span class="k">Languages</span><span class="v">Thai (native) · English (fluent)</span></div>
+        </div>
+
+        <div class="doss-blk rv">
+          <h4>In short</h4>
+          <p>
+            I'm a <strong>Product Owner &amp; Business Analyst</strong> with 6+ years across retail,
+            fintech, life insurance, health-tech, CRM and enterprise software. I take messy, unclear
+            business problems and turn them into <strong>clear requirements, shipped product features
+            and data-driven decisions</strong>.
+          </p>
+          <p>
+            I run the full cycle — discovery, requirements, roadmap, system design, testing and launch.
+            I'm currently doing a <strong>Master's in AI MBA at UTCC</strong> and I'm open to freelance &amp;
+            project-based work in AI products, product ownership and business development.
+          </p>
+        </div>
+
+        <div class="doss-blk rv">
+          <h4>Highlights</h4>
+          <ul class="doss-notes">
+            <li>Shipped products across <b>retail, fintech, life insurance, health-tech, CRM, enterprise &amp; government</b> — many industries, one playbook</li>
+            <li>Own the <b>full product lifecycle</b> — from kickoff &amp; discovery through roadmap, build, testing and launch</li>
+            <li>Built core <b>retail platforms</b> (Commercial Hub &amp; MSP) at CP Axtra · Makro from the ground up</li>
+            <li><b>1st Runner-Up</b> — Lovable Hackathon Thailand, with own startup idea <b>"AI for SME"</b></li>
+            <li>Analyzed high-stakes <b>fund-management logic</b> for MUFG &amp; State Street at SS&amp;C</li>
+            <li>Delivered <b>10+ client-facing projects</b>, 100% on-time, zero major post-go-live defects</li>
+            <li>Academic record — <b>Summa Cum Laude, GPA 3.89 / 4.00</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ OPERATIONS ============================ -->
+<section class="sec" id="ops">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sh-l">
+        <span class="idx">02 — Experiences</span>
+        <h2><em>Experiences</em></h2>
+      </div>
+      <div class="sh-r">All files declassified<br />Tap any record to expand</div>
+    </div>
+
+    <!-- OP-01 CP AXTRA -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-01<span class="st">Active</span></div>
+        <div>
+          <h3 class="op-co">CP Axtra · Makro</h3>
+          <p class="op-org">The <b>B2B &amp; B2C retail-wholesale arm of CP Group</b> (Makro &amp; Lotus's) — one of Southeast Asia's largest retailers.</p>
+          <p class="op-role">Product Owner · Retail Platforms</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>Product Owner for <strong>Commercial Hub</strong>, the retail-management platform, and <strong>MSP</strong>, the supplier item-management system. I built the core foundations for Item Management and Pricing/Promotion <strong>from the ground up</strong>.</p>
+          <p>Beyond shipping features, I owned the backlog and roadmap with a long view — designing for <strong>scalability and long-term business strategy</strong>, not just the next sprint.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Owned product <strong>backlog &amp; roadmap</strong> with a scalability-first focus</li>
+            <li>Led <strong>Commercial Hub</strong> (retail) &amp; <strong>MSP</strong> (supplier item management)</li>
+            <li>Built Item Management &amp; Pricing/Promotion platforms from scratch</li>
+            <li>Ran requirement discovery &amp; customer-mapping workshops</li>
+            <li>Drove decisions with <strong>Power BI &amp; SQL</strong>; led international teams in English</li>
+          </ul>
+        </div>
+        
+        <div class="op-chips"><span>Retail</span><span>Product Ownership</span><span>Roadmap</span><span>Item Management</span><span>Pricing &amp; Promotion</span><span>Power BI</span><span>SQL</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-02 LOVABLE -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-02<span class="st">Award</span></div>
+        <div>
+          <h3 class="op-co">Lovable Vibe Code <span class="op-award">★ 1st Runner-Up</span></h3>
+          <p class="op-org">The <b>first Lovable AI build-hackathon in Thailand</b> — idea to working prototype, live, on stage.</p>
+          <p class="op-role">Founder &amp; Product Lead · AI for SME</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>I pitched and built <strong>AI for SME</strong> — an AI tool that helps Thai small businesses run smarter — at the <strong>Lovable Meetup &amp; Hackathon Thailand</strong>.</p>
+          <p>My own idea from start to finish: I shaped the concept, designed the product, built a working demo in about <strong>two hours</strong>, pitched on stage and placed <strong>1st Runner-Up</strong>.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I did</h4>
+          <ul>
+            <li>Created the <strong>AI for SME</strong> startup idea</li>
+            <li>Defined product &amp; user flow under real time pressure</li>
+            <li>Built a working prototype in <strong>~2 hours</strong></li>
+            <li>Pitched to judges — placed <strong>1st Runner-Up</strong></li>
+          </ul>
+        </div>
+        <div class="case-shots">
+          <figure class="shot"><div class="vf" style="border:1px solid var(--line-2)"><span class="br tl"></span><span class="br tr"></span><span class="br bl"></span><span class="br rb"></span><img src="assets/lovable-event.jpg" alt="Presenting at Lovable Hackathon Thailand finals" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover" loading="lazy" /></div><figcaption>Presentation &amp; judging — finals</figcaption></figure>
+          <figure class="shot"><div class="vf" style="border:1px solid var(--line-2)"><span class="br tl"></span><span class="br tr"></span><span class="br bl"></span><span class="br rb"></span><img src="assets/lovable-award.jpg" alt="Receiving the 1st Runner-Up award on stage" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover" loading="lazy" /></div><figcaption>Receiving the 1st Runner-Up award</figcaption></figure>
+        </div>
+        <div class="op-chips"><span>AI Product</span><span>Startup</span><span>AI for SME</span><span>Hackathon</span><span>0 → 1</span><span>Rapid Prototyping</span><span>Pitch</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-03 TELEHEALTH -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-03<span class="st">Archive</span></div>
+        <div>
+          <h3 class="op-co">Telehealth Thailand</h3>
+          <p class="op-org">A <b>national telepharmacy platform under the Pharmacy Council of Thailand</b> — patients consult, pay and receive medication online.</p>
+          <p class="op-role">Project Coordinator · Product Analyst</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>A national <strong>telehealth platform for the Pharmacy Council of Thailand</strong> — patients consult pharmacists, pay, and receive medication end-to-end. I coordinated partners and owned the product workflows tying it together.</p>
+          <p>The hard part was connecting outside partners into one smooth flow — identity, payment and delivery all had to feel seamless for the patient.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Managed integrations with <strong>Lalamove</strong> (delivery), <strong>Krungthai / KTB</strong> (payment) &amp; <strong>Paotang</strong> (eKYC)</li>
+            <li>Designed product workflows, API mapping &amp; data architecture</li>
+            <li>Authored PRD &amp; user flows; coordinated SIT/UAT and go-live</li>
+            <li>Improved reliability through automation &amp; process optimization</li>
+          </ul>
+        </div>
+        <div class="case-shots site-shots">
+          <figure class="shot">
+            <div class="browser">
+              <div class="b-bar"><span class="b-dots"><i></i><i></i><i></i></span><span class="b-url">telehealththailand.vercel.app</span></div>
+              <div class="site-embed">
+                <iframe data-w="1280" src="https://telehealththailand.vercel.app/" title="Telehealth Thailand — live national platform" loading="lazy" scrolling="no"></iframe>
+                <div class="embed-fallback">Live site preview blocked here<a href="https://telehealththailand.vercel.app/" target="_blank" rel="noopener">Open telehealththailand.vercel.app ↗</a></div>
+              </div>
+            </div>
+            <figcaption>Telehealth Thailand — live national platform</figcaption>
+          </figure>
+        </div>
+        <div class="op-chips"><span>Health-tech</span><span>Partner Integration</span><span>PRD</span><span>API Mapping</span><span>eKYC</span><span>Payment Gateway</span><span>Go-live</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-04 SS&C -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-04<span class="st">Archive</span></div>
+        <div>
+          <h3 class="op-co">SS&amp;C Technologies</h3>
+          <p class="op-org">A <b>NASDAQ-listed global fintech &amp; fund-administration software firm</b> — clients include MUFG and State Street.</p>
+          <p class="op-role">Business System Analyst · HiTrust</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>Business system analysis on <strong>HiTrust</strong>, a fund-management platform, with global clients <strong>MUFG and State Street</strong> — deep, high-stakes financial logic where precision is everything.</p>
+          <p>I defined the rules the system runs on — settlement, valuation, fees — and carried them <strong>from specification through to production release</strong>.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Analyzed fund workflows — <strong>NAV, periodic fees, fund merger, settlement</strong></li>
+            <li>Defined settlement cycles (T+1 / T+2) &amp; rounding logic</li>
+            <li>Authored <strong>BRD, CID &amp; SOW</strong> for implementation &amp; sign-off</li>
+            <li>Designed parameter setup &amp; valuation flow diagrams</li>
+            <li>Led SIT/UAT, validated calculations &amp; supported releases</li>
+          </ul>
+        </div>
+        <div class="op-chips"><span>Fintech</span><span>Fund Management</span><span>BRD</span><span>Settlement</span><span>NAV</span><span>SIT / UAT</span><span>MUFG</span><span>State Street</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-05 SAW -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-05<span class="st">Archive</span></div>
+        <div>
+          <h3 class="op-co">SAW · HR Application</h3>
+          <p class="op-org">An <b>HR management application (HR-tech)</b> building tools for hiring, people ops and workforce management.</p>
+          <p class="op-role">Product Consultant · Strategy &amp; Roadmap</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>Product consulting for <strong>SAW, an HR application</strong> — owning the product roadmap and strategy and steering direction <strong>from idea to execution</strong>.</p>
+          <p>I worked across the whole business: aligning <strong>development, sales and operations</strong> around one coherent strategy and a roadmap everyone could commit to.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Defined the product <strong>roadmap &amp; long-term strategy</strong></li>
+            <li>Aligned strategy across <strong>development, sales &amp; operations</strong></li>
+            <li>Prioritized features &amp; rallied stakeholders around a shared vision</li>
+            <li>Translated business goals into execution plans</li>
+          </ul>
+        </div>
+        <div class="case-shots site-shots">
+          <figure class="shot">
+            <div class="browser">
+              <div class="b-bar"><span class="b-dots"><i></i><i></i><i></i></span><span class="b-url">sawhr.com/en/home</span></div>
+              <div class="site-embed">
+                <iframe data-w="1280" src="https://sawhr.com/en/home/" title="SAW HR Application — live product site" loading="lazy" scrolling="no"></iframe>
+                <div class="embed-fallback">Live site preview blocked here<a href="https://sawhr.com/en/home/" target="_blank" rel="noopener">Open sawhr.com ↗</a></div>
+              </div>
+            </div>
+            <figcaption>SAW — HR application (live product)</figcaption>
+          </figure>
+        </div>
+        <div class="op-chips"><span>HR-tech</span><span>Product Strategy</span><span>Roadmap</span><span>Go-to-market</span><span>Operations</span><span>Consulting</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-06 MUANG THAI -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-06<span class="st">Archive</span></div>
+        <div>
+          <h3 class="op-co">Muang Thai Life Assurance</h3>
+          <p class="op-org">One of <b>Thailand's leading life-insurance companies</b>, serving millions of policyholders nationwide.</p>
+          <p class="op-role">Business Analyst · Group Life Insurance</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>Business analysis on the <strong>group life insurance system</strong> — the full policy lifecycle from quotation through to claims.</p>
+          <p>I translated complex insurance rules into <strong>clear, build-ready requirements</strong> and kept business and development teams aligned through delivery.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Analyzed <strong>quotation, underwriting, policy &amp; claim</strong> workflows</li>
+            <li>Defined coverage tiers, premium rules &amp; benefit structures</li>
+            <li>Created <strong>SRS, BRD &amp; API specs</strong>; coordinated with OIC &amp; hospital partners</li>
+            <li>Led SIT/UAT, ensured compliance &amp; data accuracy</li>
+          </ul>
+        </div>
+        <div class="op-chips"><span>Insurance</span><span>Business Analysis</span><span>Underwriting</span><span>Claims</span><span>SRS / BRD</span><span>UAT</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- OP-07 BRIGHT INTEGRATION -->
+    <article class="op open rv">
+      <div class="op-head">
+        <div class="op-code">OP-07<span class="st">Archive</span></div>
+        <div>
+          <h3 class="op-co">Bright Integration Technology</h3>
+          <p class="op-org">An <b>enterprise software house</b> building large-scale systems for government and corporate clients.</p>
+          <p class="op-role">Business &amp; Data Analyst · Royal Thai Army software project</p>
+        </div>
+        <span class="op-toggle">+</span>
+      </div>
+      <div class="op-body"><div class="op-body-in"><div class="op-content">
+        <div class="ov">
+          <p>Lead business &amp; data analyst on a <strong>software system for the Royal Thai Army</strong> — a large, security-sensitive project with strict requirements and many stakeholders.</p>
+          <p>I sat between army officers, project owners and developers, turning complex operational needs into <strong>clear specifications, process flows and a system the team could actually build and test</strong>.</p>
+        </div>
+        <div class="op-deliver">
+          <h4>What I delivered</h4>
+          <ul>
+            <li>Ran <strong>requirement-gathering workshops</strong> with army officers &amp; stakeholders</li>
+            <li>Designed <strong>system &amp; database structure</strong> and end-to-end process flows</li>
+            <li>Mapped current vs. future workflows in <strong>BPMN</strong>; ran gap analysis</li>
+            <li>Wrote full <strong>BRD, FSD &amp; SRS</strong> documentation for the development team</li>
+            <li>Built <strong>dashboards &amp; data reports</strong> for monitoring and decision-making</li>
+            <li>Designed test cases and led <strong>SIT &amp; UAT</strong> through to sign-off</li>
+            <li>Coordinated developers, QA &amp; client to keep delivery on schedule</li>
+          </ul>
+        </div>
+        <div class="op-chips"><span>Government</span><span>Royal Thai Army</span><span>System Design</span><span>Database Design</span><span>BPMN</span><span>BRD / FSD / SRS</span><span>Dashboards</span><span>SIT / UAT</span></div>
+      </div></div></div>
+    </article>
+
+    <!-- earlier experience -->
+    <div class="subhead rv">Earlier field experience</div>
+    <div class="grid-cards rv">
+      <div class="gcard"><div class="gc-co">Anpie Soft</div><div class="gc-role">Business Analyst &amp; QA</div><div class="gc-d">Software development house. POS-style web systems, news-tracking &amp; construction-management platforms.</div></div>
+      <div class="gcard"><div class="gc-co">Freelance · Shopify</div><div class="gc-role">Project Manager &amp; Product Owner</div><div class="gc-d">Independent e-commerce builds — requirements, store design, launch &amp; client training.</div></div>
+    </div>
+
+    <!-- internships -->
+    <div class="subhead rv">Internship Experiences</div>
+    <div class="grid-cards rv">
+      <div class="gcard"><div class="gc-co">Growth Innovation</div><div class="gc-role">Business Analyst · Salesforce</div><div class="gc-d">Salesforce admin/user manuals, data cleansing, UAT import templates &amp; configuration.</div></div>
+      <div class="gcard"><div class="gc-co">Efficient Logistics</div><div class="gc-role">Data Analyst</div><div class="gc-d">Logistics spare-part data; inventory &amp; maintenance optimization with Excel, SQL &amp; Python.</div></div>
+      <div class="gcard"><div class="gc-co">University of Auckland, NZ</div><div class="gc-role">Market Researcher</div><div class="gc-d">Thai market research for ŌKU NZ natural-health products; survey analysis &amp; insight reports.</div></div>
+      <div class="gcard"><div class="gc-co">Syntec Construction PCL</div><div class="gc-role">Business Development</div><div class="gc-d">Real-estate investment: hotel appraisals, IPO/audit summaries &amp; valuation support.</div></div>
+      <div class="gcard"><div class="gc-co">TDS Design &amp; Development</div><div class="gc-role">Purchasing Assistant</div><div class="gc-d">Purchase orders, inventory tracking &amp; materials coordination for construction.</div></div>
+      <div class="gcard"><div class="gc-co">Dulloi Co., Ltd</div><div class="gc-role">Purchasing Assistant</div><div class="gc-d">Supplier quotations, price comparison &amp; cost analysis for materials procurement.</div></div>
+      <div class="gcard"><div class="gc-co">Ruangsan Engineer (TH)</div><div class="gc-role">Accounting Assistant</div><div class="gc-d">Transaction records, financial statements &amp; account reconciliation.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SKILLS ============================ -->
+<section class="sec" id="skills" style="background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sh-l">
+        <span class="idx">03 — Skills</span>
+        <h2>Skills &amp; <em>toolkit</em></h2>
+      </div>
+      <div class="sh-r">Strategy-first · research-led<br />AI products · analysis · languages</div>
+    </div>
+    <div class="arsenal-grid rv">
+      <div class="ars-col">
+        <h4><span class="n">A</span> Product Strategy</h4>
+        <div class="ars-list"><span>Product Strategy</span><span>Product Vision</span><span>Product Roadmap</span><span>Product Ownership</span><span>Go-to-Market (GTM) Strategy</span><span>Backlog &amp; Prioritization</span><span>Requirement Discovery</span><span>Customer Journey Mapping</span><span>OKRs &amp; KPIs</span><span>Stakeholder Management</span></div>
+      </div>
+      <div class="ars-col">
+        <h4><span class="n">B</span> Research &amp; Business Strategy</h4>
+        <div class="ars-list"><span>Market Research</span><span>Competitive Analysis</span><span>SWOT Analysis</span><span>P&amp;L / Unit Economics</span><span>TAM–SAM–SOM Sizing</span><span>Pricing &amp; Business Models</span><span>Opportunity Assessment</span><span>Data-Driven Decisions</span><span>Strategic Storytelling</span></div>
+      </div>
+      <div class="ars-col">
+        <h4><span class="n">C</span> AI Products &amp; Innovation</h4>
+        <div class="ars-list"><span>AI Product Strategy</span><span>AI Use-Case Discovery</span><span>GenAI / LLM Products</span><span>Prompt Engineering</span><span>AI Agents &amp; Chatbots</span><span>RAG &amp; Knowledge Bases</span><span>AI for SME</span><span>AI-Augmented Research</span><span>Rapid AI Prototyping</span><span>No-Code / Vibe Coding</span><span>Automation &amp; Workflow AI</span><span>AI Data Analysis</span><span>AI Ethics &amp; Governance</span><span>AI Roadmapping</span></div>
+      </div>
+      <div class="ars-col">
+        <h4><span class="n">D</span> Analysis, Delivery &amp; Languages</h4>
+        <div class="ars-list"><span>Business &amp; System Analysis</span><span>BRD / FSD / SRS</span><span>BPMN &amp; Flow Design</span><span>API &amp; Data Mapping</span><span>Agile / Scrum</span><span>UAT / SIT</span><span>Power BI · SQL</span><span>Jira · Confluence · Figma</span><span>Thai — Native</span><span>English — Fluent</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EDUCATION ============================ -->
+<section class="sec" id="edu">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sh-l">
+        <span class="idx">04 — Training history</span>
+        <h2>Education</h2>
+      </div>
+      <div class="sh-r">Records verified</div>
+    </div>
+    <div class="edu-stack">
+      <div class="edu-card rv">
+        <div>
+          <span class="status">In Progress</span>
+          <div class="uni" style="margin-top:16px">University of the Thai Chamber of Commerce</div>
+          <div class="deg">Master's Degree — <em>AI MBA (Business Administration in Artificial Intelligence)</em></div>
+        </div>
+        <div class="edu-honors">
+          <div class="hl">Focus</div>
+          <div class="hv">AI &amp; Business</div>
+          <div class="hg">Currently studying · UTCC</div>
+        </div>
+      </div>
+      <div class="edu-card rv d1">
+        <div>
+          <div class="uni">Assumption University of Thailand</div>
+          <div class="deg">Bachelor of Business Economics — <em>Concentration in Data Analytics</em></div>
+        </div>
+        <div class="edu-honors">
+          <div class="hl">Honors</div>
+          <div class="hv">Summa Cum Laude</div>
+          <div class="hg">GPA 3.89 / 4.00</div>
+        </div>
+      </div>
+      <div class="edu-card rv d2">
+        <div>
+          <span class="status">Selected · 2026</span>
+          <div class="uni" style="margin-top:16px">NIA Academy · ARI Corporate Coaching (ACC Program 3)</div>
+          <div class="deg">National Innovation Agency (NIA), Ministry of Higher Education, Science, Research &amp; Innovation — <em>bridging AI skills to real-world deployment, funding &amp; global growth</em></div>
+        </div>
+        <div class="edu-honors">
+          <div class="hl">Track</div>
+          <div class="hv">AI Tech Talent</div>
+          <div class="hg">CCC Academy × NIA</div>
+        </div>
+      </div>
+      <div class="edu-card rv d2">
+        <div>
+          <div class="uni">JMAT · Marketing Association of Thailand</div>
+          <div class="deg">J-MAT Award Camp — <em>Generation 23 · marketing training program</em><br />Gen-Z marketing plan &amp; competitor analysis for an Ocean Life campaign.</div>
+        </div>
+        <div class="edu-honors">
+          <div class="hl">Program</div>
+          <div class="hv">Marketing Trainee</div>
+          <div class="hg">Generation 23</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <span class="lbl-line rv" style="justify-content:center">05 — Establish contact</span>
+    <h2 class="rv d1" style="margin-top:20px">Ben is <em>available<br />for hire.</em></h2>
+    <p class="sub rv d2">Freelance &amp; project-based consulting — product strategy, ownership, system analysis and business development. From the first idea to the live release, I can carry it.</p>
+    <a class="btn btn-primary cta rv d2" href="mailto:Benrujirach@gmail.com">Hire me <span class="arw">↗</span></a>
+
+    <div class="contact-links rv d3">
+      <a href="mailto:Benrujirach@gmail.com"><span class="cl">Email</span><span class="cv">Benrujirach@gmail.com</span></a>
+      <a href="tel:0958471554"><span class="cl">Phone</span><span class="cv">095 847 1554</span></a>
+      <a href="https://th.linkedin.com/in/benjawan-ben-orphum" target="_blank" rel="noopener"><span class="cl">LinkedIn</span><span class="cv">/benjawan-ben-orphum</span></a>
+      <div class="ci"><span class="cl">Line</span><span class="cv">Januaryqw</span></div>
+    </div>
+  </div>
+
+  <footer class="wrap">
+    <div class="foot">
+      <span class="fb">Ben · Rujirach Kanjarin</span>
+      <span>Product Ops // Dossier R-2727</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</section>
+
+<!-- sticky hire pill -->
+<div class="hire-pill">
+  <img class="hp-av" src="assets/ben-mug-color.jpg" alt="Ben" />
+  <span class="hp-t"><b>Ben</b> is available for hire</span>
+  <a class="hp-btn" href="#contact">Hire Ben</a>
+  <button class="hp-x" aria-label="Dismiss">✕</button>
+</div>
+
+<script src="js/dossier.js"></script>
+</body>
+</html>
