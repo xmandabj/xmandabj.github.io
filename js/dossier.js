@@ -39,14 +39,28 @@
   /* ---- topbar scroll + progress ---- */
   var tb = document.querySelector(".topbar");
   var pr = document.querySelector(".progress");
+  var oceanBg = document.querySelector(".ocean-bg");
+  var mtnBg = document.querySelector(".mountain-bg");
+  var mark = document.getElementById("internship-mark");
   function onScroll() {
     var y = window.scrollY || document.documentElement.scrollTop;
     if (tb) tb.classList.toggle("scrolled", y > 30);
     if (pr) { var h = document.documentElement.scrollHeight - innerHeight; pr.style.width = (h > 0 ? y / h * 100 : 0) + "%"; }
     var pill = document.querySelector(".hire-pill");
     if (pill && !pill.dataset.dismissed) pill.classList.toggle("show", y > innerHeight * 0.9);
+    /* ocean → mountains crossfade as the internship section approaches */
+    if (mtnBg && mark) {
+      var top = mark.getBoundingClientRect().top;
+      var start = innerHeight * 0.85;   /* begin fading when mark is 85% down */
+      var span = innerHeight * 0.55;    /* finish over this distance */
+      var t = (start - top) / span;
+      t = t < 0 ? 0 : (t > 1 ? 1 : t);
+      mtnBg.style.opacity = t;
+      if (oceanBg) oceanBg.style.opacity = 1 - t;
+    }
   }
   addEventListener("scroll", onScroll, { passive: true });
+  addEventListener("resize", onScroll, { passive: true });
   onScroll();
 
   /* ---- reveal ---- */
